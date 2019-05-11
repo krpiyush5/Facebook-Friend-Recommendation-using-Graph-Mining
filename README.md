@@ -13,15 +13,12 @@ data contains two columns source and destination eac edge in graph
 <h3>Mapping the problem into supervised learning problem:</h3>
 
 Generated training samples of good and bad links from given directed graph and for each link got some features like no of
-
 followers, is he followed back, page rank, katz score, adar index, some svd fetures of adj matrix, some weight features etc.
-
 and trained ml model based on these features to predict link.
 
 <h3>Business objectives and constraints:</h3>
 
 No low-latency requirement.
-
 Probability of prediction is useful to recommend ighest probability links.
 
 <h4>Performance metric for supervised learning:</h4>
